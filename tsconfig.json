@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "allowUnusedLabels": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "jsx": "react",
+        "lib": ["dom", "es2015", "esnext"],
+        "module": "commonjs",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "removeComments": false,
+        "strict": true,
+        "target": "es2017",
+        "moduleResolution": "Node"
+    },
+    "include": ["app/**/*"],
+    "exclude": ["node_modules"]
+}
